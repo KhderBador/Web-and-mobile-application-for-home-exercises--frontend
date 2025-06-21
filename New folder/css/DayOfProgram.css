@@ -1,0 +1,81 @@
+
+#section_practices{
+  background-image: url(/src/images/bg.jpg);
+  background-size: cover;
+ 
+  
+}
+
+
+#section_practices .practice{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 50px;
+  /* background-color:  #F85A16; */
+  margin: auto;
+  border-radius: 0px 70px 70px 0px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -moz-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -ms-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -o-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  
+
+
+}
+/* #section_practices .practice .menu{
+  width:15%;
+  height: 70%;
+  border-radius: 100%;
+  margin: auto;
+
+} */
+#section_practices .practice .practice_image{
+  width:10%;
+  height:70%;
+  border-radius: 100%;
+  margin: auto;
+
+
+
+
+
+
+
+
+}
+#section_practices .practice .exersise_name{
+  font-size:medium;
+  font-weight: bold;
+  width:60%;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#section_practices .practice .time{
+  font-size:medium;
+  font-weight: bold;
+  width:10%;
+  height: 30px;
+  
+  margin-top: 15px;
+  color: #252121;
+  font-weight: 900;
+  margin-right: 30px;
+}
+.flex_container{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.start_workouts_button{
+  
+  margin-bottom: 10px;
+  color:  #F85A16;
+  font-size: large;
+  font-weight: 900;
+  background-color: aliceblue;
+}

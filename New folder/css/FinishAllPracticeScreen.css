@@ -1,0 +1,73 @@
+.finish_all_practices_section{
+
+  /* background-image: url(/src/images/background5.jpg); */
+  background-color: black;
+  background-size:cover;
+  
+  
+  
+}
+
+.flex_message{
+  height: 600px;
+  
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  word-break: break-all;
+  padding: 40px;
+  background-color:rgb(0, 0, 0)
+}
+
+
+
+.orange_circle{
+  width: 100%;
+  height: 330px;
+  border-radius: 100%;
+  background-color: #F85A16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_message img{
+
+
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  margin: auto;
+  
+  border-radius: 100%;
+ 
+ 
+  -webkit-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -moz-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -ms-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -o-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  
+  
+} 
+
+.flex_message h1{
+
+ 
+  
+  color:#F85A16;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.flex_message p{
+
+ 
+  
+  color:#F85A16;
+  font-size: medium;
+ 
+}
+
+
+

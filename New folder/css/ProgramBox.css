@@ -1,0 +1,90 @@
+.program_box{
+  height: 300px;
+  width: 90%;
+ 
+  border-radius: 45px;
+  margin-bottom: 80px;
+  
+  position: relative;
+  -webkit-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -moz-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -ms-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -o-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  transition-duration: 0.5s;
+  background-color: #ff4d00;
+  
+}
+.program_box img{
+  /* width: 90%;
+  margin-left: 5%;
+  margin-top: -40px; */
+  width: 100%;
+  height: 100%;
+  border-radius: 45px;
+  padding: 3px;
+}
+
+
+.program_box .overlay{
+
+  z-index: 1;
+  position: absolute;
+  bottom: 3px;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  border-radius: 42px;
+  background: rgb(0 0 0 / 68%)
+}
+
+
+.program_box:hover{
+transform: scale(0.95);
+}
+
+
+
+
+
+.program_box:hover .overlay{
+    
+  background: rgb(0 0 0 / 45%);
+    
+ }
+/* 
+@media (max-width:350px) {
+  .program_box{
+     width: 250px;
+  
+}
+}
+@media (max-width:350px) {
+  .program_box img{
+     width: 250px;
+  
+}
+}
+ */
+
+
+
+
+
+
+
+.program_box h1{
+position: absolute;
+z-index: 1000;
+color: white;
+top: 35%;
+right: 10%;
+left: 30%;
+font-weight: 700;
+font-style: normal;
+}
+.program_box p{
+position: absolute;
+left: 8%;
+font-size: larger;
+}

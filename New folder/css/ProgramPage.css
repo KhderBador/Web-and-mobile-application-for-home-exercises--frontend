@@ -1,0 +1,153 @@
+.section_program{
+
+  
+    background-image: url(/src/images/background2.jpg);
+    background-size: cover;
+    
+    
+  
+}
+
+
+
+
+.section_program,.days_of_program {
+  
+
+  padding: 3em 0;
+  clear: both;
+  border-top-color: #828282;
+  border-top-width: 10px;
+  border-top-style: solid;
+}
+.section_program .program_info{
+ margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .program-image{
+    margin-bottom: 30px;
+  }
+}
+.program-image img {
+  width: 90%;
+}
+
+.section_program .program_info .box_image_progress{
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left:-30px;
+}
+
+.section_program .program_info .box_image_progress .completed_dey  {
+
+  /* position: absolute; */
+  width: 60%;
+
+  margin-top: 30px;
+  bottom:10%;
+  left: 10%;
+  padding: 30px;
+  background-color:  #F85A16;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -moz-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -ms-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  -o-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 15);
+  }
+.section_program .program_info .description_of_program{
+
+  padding: 70px;
+  height: 526px;
+  position: relative;
+  right: 2%;
+  margin-top: -60px;
+
+  word-break: break-all;
+  
+}
+.section_program .program_info .description_of_program p{
+
+  color: #d9794f;
+  font-weight: 700;
+
+
+}
+
+
+
+.section_program .program_info .completed_dey  h3{
+
+  color: black;
+  font-weight:bolder;
+  margin: auto;
+  margin-left: 8%;
+  }
+
+  .section_program .program_info .completed_dey  h3 span{
+
+    color:antiquewhite;
+  
+    }
+
+
+
+
+
+
+ .day_button{
+
+  margin: 5px;
+  margin-bottom: 30px;
+  border-radius: 0px 50px 50px 0px ;
+
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+  .description_of_program {
+    
+    padding: 0px;
+    word-break: keep-all;
+    margin-bottom: -200px;
+    
+  }
+  .description_of_program p{
+    font-size:medium;
+    margin-bottom: 50px;
+  }
+  .program-image img {
+    width:90%;
+    margin-left: 9%;
+  }
+  .day_button{
+
+    margin-left: 25%;
+  
+  
+  
+  }
+}
+
+.delete{
+  margin-bottom: 10px;
+  color: aliceblue;
+  font-size: large;
+  font-weight: 900;
+  margin-left: 80%;
+  background-color:rgb(207, 18, 18);
+}
+
+.delete_for_plan{
+  margin-bottom: 60px;
+  margin-left: 80%;
+  color: aliceblue;
+  font-size: large;
+  font-weight: 900;
+  background-color:rgb(207, 18, 18);
+}

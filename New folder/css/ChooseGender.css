@@ -1,0 +1,39 @@
+.center_section{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.image_box{
+  
+  height: 400px;
+  width: 250px;
+  transition-duration: 0.5s;
+  
+}
+
+.image_box:hover{
+
+  transform: scale(1.2);
+  
+  
+  
+}
+
+.image_box img{
+  height: 100%;
+  width: 100%;
+
+}
+
+.center_section button{
+
+  margin: 30px;
+  width: 150px;
+  height: 55px;
+
+}

@@ -1,0 +1,48 @@
+#section_article_ofcatigory{
+  background-image: url(/src/images/bg.jpg);
+  background-size: cover;
+  
+}
+#section_article_ofcatigory .articlesofcatigory{
+ display: flex;
+ flex-direction: column;
+ width: 90%;
+ height: 400px;
+ background-color: #e26a1b;
+ margin: auto;
+ border-radius: 10px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+ transition-duration: 0.5s;
+
+}
+#section_article_ofcatigory .articlesofcatigory:hover{
+
+  transform: scale(0.95);
+
+  
+
+}
+
+
+
+
+
+#section_article_ofcatigory .image_of_article{
+ width: 90%;
+ height: 338px;
+ border-radius:25px 0px 0px 0px;
+ margin: auto;
+ margin-top: 10px;
+}
+
+
+ #section_article_ofcatigory .articlesofcatigory  p{
+font-size:xx-large;
+ font-weight: bold;
+ width: 40%;
+ 
+ margin: auto;
+ margin-top: 2px;
+ 
+ }
