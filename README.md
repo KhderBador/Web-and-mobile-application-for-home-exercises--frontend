@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Note:
 The Android folder created when using the capacitor technique is not uploaded. You can easily learn how to use this technique, which is a set of steps, and then this folder will be created automatically.
+
+Note: 
+There is a folder called"new file" located in the root folder, change it to "src" before you run the site necessarily for it to work.
